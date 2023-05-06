@@ -99,5 +99,6 @@ dependencies {
 }
 
 kapt {
-    //correctErrorTypes true
+    correctErrorTypes = true
+    generateStubs = true
 }
